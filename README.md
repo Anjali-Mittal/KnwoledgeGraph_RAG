@@ -1,75 +1,62 @@
-🚀 ISRO Knowledge Graph RAG
+ISRO Knowledge Graph RAG
 
-A lightweight, fast, and interactive ISRO Knowledge Explorer powered by GraphRAG, Cypher-based retrieval, and an LLM chatbot UI.
-This project allows users to query structured ISRO datasets (missions, satellites, launch vehicles, centers, etc.) using natural language and get accurate, graph-grounded answers along with graph visualizations.
+A lightweight, fast, and interactive Knowledge Graph–powered RAG system that lets users query structured ISRO data (missions, satellites, launch vehicles, centers, events, etc.) using natural language.
+The system retrieves relevant triplets, converts queries into Cypher, executes graph lookups, and returns graph-grounded answers along with visualizations.
 
-🔍 Overview
+🔍 Features
 
-This project builds a retrieval-augmented chatbot that uses:
+GraphRAG pipeline combining dense embedding search + graph retrieval
 
-ChromaDB – Stores embeddings and metadata for triplets
+ChromaDB for local vector storage
 
-MiniLM / BGE Small – Sentence embedding models
+MiniLM / BGE-small embeddings
 
-Cypher Query Generator – Converts natural language → Cypher
+Cypher generation from natural language
 
-Neo4j / Memgraph Simulation – Local lightweight graph representation
+Neo4j / In-memory graph simulation for subgraph extraction
 
-Gradio Chat UI – Frontend for users to ask questions
+Gradio Chat UI for user interaction
 
-Graph Visualization API – Renders subgraphs on the UI
+Graph visualization rendered on the UI
 
-The system allows users to explore ISRO’s knowledge graph by asking questions like:
+Works fully offline (optional)
 
-“Show me missions launched between 2010 and 2020.”
-“Which satellites are used for remote sensing?”
-“What launch vehicle was used for Cartosat-2?”
-“List missions related to lunar exploration.”
+Ready for HuggingFace Spaces deployment
 
-✨ Features
-✔ Chatbot Interface
-
-Ask questions in natural language – backend converts them into Cypher queries.
-
-✔ Graph-based Retrieval
-
-Your data exists as triplets:
-(source, relation, target)
-Each user query retrieves the most relevant subgraph.
-
-✔ Clean Graph Visualization
-
-A Python JS library returns a JSON graph → rendered in Gradio.
-
-✔ Offline-Friendly
-
-Does not depend on cloud databases. Completely local if desired.
-
-✔ Ready for HuggingFace Spaces Deployment
-
-Supports:
-
-requirements.txt
-
-app.py
-
-.env through HF Secrets
-
-GPU / CPU modes
-
-🗂 Project Structure
+📁 Project Structure
 ISRO_KnowledgeGraph_RAG/
-│── app.py                 # Main Gradio app
-│── graph_utils.py         # Cypher generator + graph parsing
-│── rag_engine.py          # Retrieval and LLM pipeline
+│── app.py                 # Main Gradio application
+│── backend.py             # Retrieval + Cypher + Response pipeline
+│── cypher_generator.py    # Natural language → Cypher
+│── get_response.py        # Final LLM answer formatting
+│── fallback_llm.py        # Backup LLM logic
+│── config/                # Config files
 │── data/
 │   └── triplets.csv       # ISRO triplets dataset
-│── embeddings/
-│   └── embeddings_chroma/ # ChromaDB vector store
-│── models/
-│   └── bge-small          # Saved embedding model (optional)
+│── embedding/
+│   └── chroma_utils.py    # ChromaDB vector logic
+│── ingest/
+│   └── main_ingest.py     # Triplet ingestion + embedding generation
 │── static/
-│   └── graph.js           # Visualization logic
+│   └── graph.js           # Graph visualization logic
 │── requirements.txt
 │── README.md
-└── .env                   # (Only local, NEVER uploaded)
+└── .env (Not uploaded — use HF secrets)
+
+🚀 How It Works
+
+Embeddings are generated for each ISRO triplet and stored in ChromaDB.
+
+User asks a question → embeddings retrieved → top-k relevant triplets fetched.
+
+Model converts query into Cypher.
+
+Graph engine executes Cypher on a Neo4j-like memory graph.
+
+Results + visualization returned to the UI.
+
+Example questions the system supports:
+
+“Which ISRO missions used the PSLV launcher?”
+
+“List satellites launched in 2018.”
