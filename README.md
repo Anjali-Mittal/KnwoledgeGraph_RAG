@@ -89,3 +89,9 @@ Dataset coverage
 Graph consistency
 Model performance
 UI/UX
+
+---
+title: ISRO Knowledge RAG
+sdk: gradio
+app_file: app.py
+---
