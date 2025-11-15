@@ -1,0 +1,305 @@
+subject,predicate,object
+A & N ISLAND (UT),has_districts_with_large_excess,1
+A & N ISLAND (UT),has_districts_with_excess,1
+A & N ISLAND (UT),has_districts_with_normal,1
+A & N ISLAND (UT),has_districts_with_deficient,0
+A & N ISLAND (UT),has_districts_with_large_deficient,0
+A & N ISLAND (UT),has_districts_with_no_report,0
+A & N ISLAND (UT),has_districts_with_no_data,0.0
+A & N ISLAND (UT),has_total_districts,3.0
+ARUNACHAL PRADESH,has_districts_with_large_excess,0
+ARUNACHAL PRADESH,has_districts_with_excess,0
+ARUNACHAL PRADESH,has_districts_with_normal,3
+ARUNACHAL PRADESH,has_districts_with_deficient,8
+ARUNACHAL PRADESH,has_districts_with_large_deficient,4
+ARUNACHAL PRADESH,has_districts_with_no_report,0
+ARUNACHAL PRADESH,has_districts_with_no_data,1.0
+ARUNACHAL PRADESH,has_total_districts,16.0
+ASSAM,has_districts_with_large_excess,0
+ASSAM,has_districts_with_excess,3
+ASSAM,has_districts_with_normal,10
+ASSAM,has_districts_with_deficient,13
+ASSAM,has_districts_with_large_deficient,8
+ASSAM,has_districts_with_no_report,0
+ASSAM,has_districts_with_no_data,1.0
+ASSAM,has_total_districts,35.0
+MEGHALAYA,has_districts_with_large_excess,1
+MEGHALAYA,has_districts_with_excess,0
+MEGHALAYA,has_districts_with_normal,1
+MEGHALAYA,has_districts_with_deficient,5
+MEGHALAYA,has_districts_with_large_deficient,4
+MEGHALAYA,has_districts_with_no_report,0
+MEGHALAYA,has_districts_with_no_data,0.0
+MEGHALAYA,has_total_districts,11.0
+NAGALAND,has_districts_with_large_excess,0
+NAGALAND,has_districts_with_excess,1
+NAGALAND,has_districts_with_normal,3
+NAGALAND,has_districts_with_deficient,2
+NAGALAND,has_districts_with_large_deficient,0
+NAGALAND,has_districts_with_no_report,0
+NAGALAND,has_districts_with_no_data,5.0
+NAGALAND,has_total_districts,11.0
+MANIPUR,has_districts_with_large_excess,0
+MANIPUR,has_districts_with_excess,2
+MANIPUR,has_districts_with_normal,3
+MANIPUR,has_districts_with_deficient,2
+MANIPUR,has_districts_with_large_deficient,2
+MANIPUR,has_districts_with_no_report,0
+MANIPUR,has_districts_with_no_data,0.0
+MANIPUR,has_total_districts,9.0
+MIZORAM,has_districts_with_large_excess,0
+MIZORAM,has_districts_with_excess,2
+MIZORAM,has_districts_with_normal,3
+MIZORAM,has_districts_with_deficient,1
+MIZORAM,has_districts_with_large_deficient,0
+MIZORAM,has_districts_with_no_report,0
+MIZORAM,has_districts_with_no_data,2.0
+MIZORAM,has_total_districts,8.0
+TRIPURA,has_districts_with_large_excess,0
+TRIPURA,has_districts_with_excess,0
+TRIPURA,has_districts_with_normal,4
+TRIPURA,has_districts_with_deficient,3
+TRIPURA,has_districts_with_large_deficient,1
+TRIPURA,has_districts_with_no_report,0
+TRIPURA,has_districts_with_no_data,0.0
+TRIPURA,has_total_districts,8.0
+SIKKIM,has_districts_with_large_excess,0
+SIKKIM,has_districts_with_excess,0
+SIKKIM,has_districts_with_normal,2
+SIKKIM,has_districts_with_deficient,4
+SIKKIM,has_districts_with_large_deficient,0
+SIKKIM,has_districts_with_no_report,0
+SIKKIM,has_districts_with_no_data,0.0
+SIKKIM,has_total_districts,6.0
+WEST BENGAL,has_districts_with_large_excess,2
+WEST BENGAL,has_districts_with_excess,2
+WEST BENGAL,has_districts_with_normal,9
+WEST BENGAL,has_districts_with_deficient,10
+WEST BENGAL,has_districts_with_large_deficient,0
+WEST BENGAL,has_districts_with_no_report,0
+WEST BENGAL,has_districts_with_no_data,0.0
+WEST BENGAL,has_total_districts,23.0
+ODISHA,has_districts_with_large_excess,6
+ODISHA,has_districts_with_excess,9
+ODISHA,has_districts_with_normal,12
+ODISHA,has_districts_with_deficient,3
+ODISHA,has_districts_with_large_deficient,0
+ODISHA,has_districts_with_no_report,0
+ODISHA,has_districts_with_no_data,0.0
+ODISHA,has_total_districts,30.0
+JHARKHAND,has_districts_with_large_excess,12
+JHARKHAND,has_districts_with_excess,5
+JHARKHAND,has_districts_with_normal,4
+JHARKHAND,has_districts_with_deficient,3
+JHARKHAND,has_districts_with_large_deficient,0
+JHARKHAND,has_districts_with_no_report,0
+JHARKHAND,has_districts_with_no_data,0.0
+JHARKHAND,has_total_districts,24.0
+BIHAR,has_districts_with_large_excess,0
+BIHAR,has_districts_with_excess,4
+BIHAR,has_districts_with_normal,6
+BIHAR,has_districts_with_deficient,16
+BIHAR,has_districts_with_large_deficient,12
+BIHAR,has_districts_with_no_report,0
+BIHAR,has_districts_with_no_data,0.0
+BIHAR,has_total_districts,38.0
+UTTAR PRADESH,has_districts_with_large_excess,22
+UTTAR PRADESH,has_districts_with_excess,8
+UTTAR PRADESH,has_districts_with_normal,18
+UTTAR PRADESH,has_districts_with_deficient,20
+UTTAR PRADESH,has_districts_with_large_deficient,7
+UTTAR PRADESH,has_districts_with_no_report,0
+UTTAR PRADESH,has_districts_with_no_data,0.0
+UTTAR PRADESH,has_total_districts,75.0
+UTTARAKHAND,has_districts_with_large_excess,3
+UTTARAKHAND,has_districts_with_excess,2
+UTTARAKHAND,has_districts_with_normal,7
+UTTARAKHAND,has_districts_with_deficient,1
+UTTARAKHAND,has_districts_with_large_deficient,0
+UTTARAKHAND,has_districts_with_no_report,0
+UTTARAKHAND,has_districts_with_no_data,0.0
+UTTARAKHAND,has_total_districts,13.0
+HARYANA,has_districts_with_large_excess,8
+HARYANA,has_districts_with_excess,1
+HARYANA,has_districts_with_normal,7
+HARYANA,has_districts_with_deficient,6
+HARYANA,has_districts_with_large_deficient,0
+HARYANA,has_districts_with_no_report,0
+HARYANA,has_districts_with_no_data,0.0
+HARYANA,has_total_districts,22.0
+CHANDIGARH (UT),has_districts_with_large_excess,0
+CHANDIGARH (UT),has_districts_with_excess,1
+CHANDIGARH (UT),has_districts_with_normal,0
+CHANDIGARH (UT),has_districts_with_deficient,0
+CHANDIGARH (UT),has_districts_with_large_deficient,0
+CHANDIGARH (UT),has_districts_with_no_report,0
+CHANDIGARH (UT),has_districts_with_no_data,0.0
+CHANDIGARH (UT),has_total_districts,1.0
+DELHI,has_districts_with_large_excess,0
+DELHI,has_districts_with_excess,0
+DELHI,has_districts_with_normal,4
+DELHI,has_districts_with_deficient,4
+DELHI,has_districts_with_large_deficient,2
+DELHI,has_districts_with_no_report,0
+DELHI,has_districts_with_no_data,0.0
+DELHI,has_total_districts,10.0
+PUNJAB,has_districts_with_large_excess,4
+PUNJAB,has_districts_with_excess,7
+PUNJAB,has_districts_with_normal,7
+PUNJAB,has_districts_with_deficient,4
+PUNJAB,has_districts_with_large_deficient,0
+PUNJAB,has_districts_with_no_report,0
+PUNJAB,has_districts_with_no_data,0.0
+PUNJAB,has_total_districts,22.0
+HIMACHAL PRADESH,has_districts_with_large_excess,7
+HIMACHAL PRADESH,has_districts_with_excess,2
+HIMACHAL PRADESH,has_districts_with_normal,2
+HIMACHAL PRADESH,has_districts_with_deficient,0
+HIMACHAL PRADESH,has_districts_with_large_deficient,1
+HIMACHAL PRADESH,has_districts_with_no_report,0
+HIMACHAL PRADESH,has_districts_with_no_data,0.0
+HIMACHAL PRADESH,has_total_districts,12.0
+JAMMU & KASHMIR(UT),has_districts_with_large_excess,3
+JAMMU & KASHMIR(UT),has_districts_with_excess,2
+JAMMU & KASHMIR(UT),has_districts_with_normal,3
+JAMMU & KASHMIR(UT),has_districts_with_deficient,9
+JAMMU & KASHMIR(UT),has_districts_with_large_deficient,3
+JAMMU & KASHMIR(UT),has_districts_with_no_report,0
+JAMMU & KASHMIR(UT),has_districts_with_no_data,0.0
+JAMMU & KASHMIR(UT),has_total_districts,20.0
+LADAKH(UT),has_districts_with_large_excess,1
+LADAKH(UT),has_districts_with_excess,0
+LADAKH(UT),has_districts_with_normal,0
+LADAKH(UT),has_districts_with_deficient,0
+LADAKH(UT),has_districts_with_large_deficient,1
+LADAKH(UT),has_districts_with_no_report,0
+LADAKH(UT),has_districts_with_no_data,0.0
+LADAKH(UT),has_total_districts,2.0
+RAJASTHAN,has_districts_with_large_excess,27
+RAJASTHAN,has_districts_with_excess,4
+RAJASTHAN,has_districts_with_normal,2
+RAJASTHAN,has_districts_with_deficient,0
+RAJASTHAN,has_districts_with_large_deficient,0
+RAJASTHAN,has_districts_with_no_report,0
+RAJASTHAN,has_districts_with_no_data,0.0
+RAJASTHAN,has_total_districts,33.0
+MADHYA PRADESH,has_districts_with_large_excess,18
+MADHYA PRADESH,has_districts_with_excess,14
+MADHYA PRADESH,has_districts_with_normal,18
+MADHYA PRADESH,has_districts_with_deficient,2
+MADHYA PRADESH,has_districts_with_large_deficient,0
+MADHYA PRADESH,has_districts_with_no_report,0
+MADHYA PRADESH,has_districts_with_no_data,0.0
+MADHYA PRADESH,has_total_districts,52.0
+GUJARAT,has_districts_with_large_excess,26
+GUJARAT,has_districts_with_excess,5
+GUJARAT,has_districts_with_normal,2
+GUJARAT,has_districts_with_deficient,0
+GUJARAT,has_districts_with_large_deficient,0
+GUJARAT,has_districts_with_no_report,0
+GUJARAT,has_districts_with_no_data,0.0
+GUJARAT,has_total_districts,33.0
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_large_excess,1
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_excess,1
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_normal,1
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_deficient,0
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_large_deficient,0
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_no_report,0
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_districts_with_no_data,0.0
+DADRA & NAGAR HAVELI AND DAMAN & DIU (UT),has_total_districts,3.0
+GOA,has_districts_with_large_excess,0
+GOA,has_districts_with_excess,0
+GOA,has_districts_with_normal,2
+GOA,has_districts_with_deficient,0
+GOA,has_districts_with_large_deficient,0
+GOA,has_districts_with_no_report,0
+GOA,has_districts_with_no_data,0.0
+GOA,has_total_districts,2.0
+MAHARASHTRA,has_districts_with_large_excess,5
+MAHARASHTRA,has_districts_with_excess,4
+MAHARASHTRA,has_districts_with_normal,15
+MAHARASHTRA,has_districts_with_deficient,9
+MAHARASHTRA,has_districts_with_large_deficient,3
+MAHARASHTRA,has_districts_with_no_report,0
+MAHARASHTRA,has_districts_with_no_data,0.0
+MAHARASHTRA,has_total_districts,36.0
+CHHATISGARH,has_districts_with_large_excess,1
+CHHATISGARH,has_districts_with_excess,5
+CHHATISGARH,has_districts_with_normal,12
+CHHATISGARH,has_districts_with_deficient,13
+CHHATISGARH,has_districts_with_large_deficient,2
+CHHATISGARH,has_districts_with_no_report,0
+CHHATISGARH,has_districts_with_no_data,0.0
+CHHATISGARH,has_total_districts,33.0
+ANDHRA PRADESH,has_districts_with_large_excess,0
+ANDHRA PRADESH,has_districts_with_excess,2
+ANDHRA PRADESH,has_districts_with_normal,12
+ANDHRA PRADESH,has_districts_with_deficient,10
+ANDHRA PRADESH,has_districts_with_large_deficient,2
+ANDHRA PRADESH,has_districts_with_no_report,0
+ANDHRA PRADESH,has_districts_with_no_data,0.0
+ANDHRA PRADESH,has_total_districts,26.0
+TELANGANA,has_districts_with_large_excess,0
+TELANGANA,has_districts_with_excess,6
+TELANGANA,has_districts_with_normal,14
+TELANGANA,has_districts_with_deficient,13
+TELANGANA,has_districts_with_large_deficient,0
+TELANGANA,has_districts_with_no_report,0
+TELANGANA,has_districts_with_no_data,0.0
+TELANGANA,has_total_districts,33.0
+TAMILNADU,has_districts_with_large_excess,6
+TAMILNADU,has_districts_with_excess,6
+TAMILNADU,has_districts_with_normal,12
+TAMILNADU,has_districts_with_deficient,8
+TAMILNADU,has_districts_with_large_deficient,6
+TAMILNADU,has_districts_with_no_report,0
+TAMILNADU,has_districts_with_no_data,0.0
+TAMILNADU,has_total_districts,38.0
+PUDUCHERRY (UT),has_districts_with_large_excess,1
+PUDUCHERRY (UT),has_districts_with_excess,0
+PUDUCHERRY (UT),has_districts_with_normal,1
+PUDUCHERRY (UT),has_districts_with_deficient,2
+PUDUCHERRY (UT),has_districts_with_large_deficient,0
+PUDUCHERRY (UT),has_districts_with_no_report,0
+PUDUCHERRY (UT),has_districts_with_no_data,0.0
+PUDUCHERRY (UT),has_total_districts,4.0
+KARNATAKA,has_districts_with_large_excess,3
+KARNATAKA,has_districts_with_excess,5
+KARNATAKA,has_districts_with_normal,13
+KARNATAKA,has_districts_with_deficient,9
+KARNATAKA,has_districts_with_large_deficient,1
+KARNATAKA,has_districts_with_no_report,0
+KARNATAKA,has_districts_with_no_data,0.0
+KARNATAKA,has_total_districts,31.0
+KERALA,has_districts_with_large_excess,0
+KERALA,has_districts_with_excess,0
+KERALA,has_districts_with_normal,12
+KERALA,has_districts_with_deficient,2
+KERALA,has_districts_with_large_deficient,0
+KERALA,has_districts_with_no_report,0
+KERALA,has_districts_with_no_data,0.0
+KERALA,has_total_districts,14.0
+LAKSHADWEEP (UT),has_districts_with_large_excess,0
+LAKSHADWEEP (UT),has_districts_with_excess,0
+LAKSHADWEEP (UT),has_districts_with_normal,0
+LAKSHADWEEP (UT),has_districts_with_deficient,1
+LAKSHADWEEP (UT),has_districts_with_large_deficient,0
+LAKSHADWEEP (UT),has_districts_with_no_report,0
+LAKSHADWEEP (UT),has_districts_with_no_data,0.0
+LAKSHADWEEP (UT),has_total_districts,1.0
+TOTAL,has_districts_with_large_excess,158
+TOTAL,has_districts_with_excess,104
+TOTAL,has_districts_with_normal,225
+TOTAL,has_districts_with_deficient,183
+TOTAL,has_districts_with_large_deficient,59
+TOTAL,has_districts_with_no_report,0
+TOTAL,has_districts_with_no_data,9.0
+TOTAL,has_total_districts,738.0
+WHOSE DATA RECEIVED,has_districts_with_large_excess,
+WHOSE DATA RECEIVED,has_districts_with_excess,
+WHOSE DATA RECEIVED,has_districts_with_normal,
+WHOSE DATA RECEIVED,has_districts_with_deficient,
+WHOSE DATA RECEIVED,has_districts_with_large_deficient,
+WHOSE DATA RECEIVED,has_districts_with_no_report,
+WHOSE DATA RECEIVED,has_districts_with_no_data,
+WHOSE DATA RECEIVED,has_total_districts,

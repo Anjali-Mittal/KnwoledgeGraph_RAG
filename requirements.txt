@@ -1,0 +1,18 @@
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+transformers==4.39.3
+sentence-transformers==2.2.2
+
+huggingface_hub==0.33.0
+tokenizers==0.15.2
+
+gradio==5.34.0
+datasets==3.6.0
+accelerate==1.8.1
+langchain-huggingface==0.3.0
+fsspec==2025.3.0    # required by datasets (your current 2025.7.0 is too new)
+
+py2neo==2021.2.3
+neo4j==5.23.0
