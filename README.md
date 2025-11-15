@@ -1,62 +1,91 @@
-ISRO Knowledge Graph RAG
+# 🚀 ISRO Knowledge Graph RAG
 
-A lightweight, fast, and interactive Knowledge Graph–powered RAG system that lets users query structured ISRO data (missions, satellites, launch vehicles, centers, events, etc.) using natural language.
-The system retrieves relevant triplets, converts queries into Cypher, executes graph lookups, and returns graph-grounded answers along with visualizations.
+ISRO Knowledge Graph RAG is an interactive system that allows users to explore ISRO missions, satellites, launch vehicles, and centers using natural language queries.
+It uses GraphRAG, Cypher-based retrieval, and semantic search to generate accurate, graph-grounded answers — along with graph visualizations.
 
-🔍 Features
+## Features
 
-GraphRAG pipeline combining dense embedding search + graph retrieval
+🧠 Retrieval-Augmented Generation over structured ISRO knowledge
+🔍 Semantic Search using ChromaDB instead of keyword matching
+🕸️ Graph-based reasoning using Cypher queries (via Neo4j)
+⚡ Fast responses by retrieving only relevant triplets / subgraphs
+💬 Clean Gradio chatbot UI for interacting with the graph
+🔌 Fully local — no external APIs or cloud databases required
 
-ChromaDB for local vector storage
+### 🛠️ Setup Instructions
+### 1. Clone the repository
 
-MiniLM / BGE-small embeddings
+```bash
+git clone https://github.com/Anjali-Mittal/KnwoledgeGraph_RAG.git
+cd KnwoledgeGraph_RAG
+```
 
-Cypher generation from natural language
+### 2. Install dependencies
 
-Neo4j / In-memory graph simulation for subgraph extraction
+Use a virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-Gradio Chat UI for user interaction
+pip install -r requirements.txt
+```
 
-Graph visualization rendered on the UI
+### 3. Add environment variables
 
-Works fully offline (optional)
+Create a .env (DO NOT upload this to GitHub):
 
-Ready for HuggingFace Spaces deployment
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your_password
+OPENROUTER_API_KEY=your_key
 
-📁 Project Structure
+
+For HuggingFace deployment, add these to HF Spaces → Settings → Secrets.
+
+### 4. Start the local Neo4j database
+
+Make sure Neo4j Desktop or Memgraph Light is running.
+
+### 5. Run the app
+```python app.py```
+The Gradio UI will open — ask any ISRO-related question.
+
+## 📂 Directory Structure
+```
 ISRO_KnowledgeGraph_RAG/
-│── app.py                 # Main Gradio application
-│── backend.py             # Retrieval + Cypher + Response pipeline
-│── cypher_generator.py    # Natural language → Cypher
-│── get_response.py        # Final LLM answer formatting
-│── fallback_llm.py        # Backup LLM logic
-│── config/                # Config files
-│── data/
-│   └── triplets.csv       # ISRO triplets dataset
-│── embedding/
-│   └── chroma_utils.py    # ChromaDB vector logic
-│── ingest/
-│   └── main_ingest.py     # Triplet ingestion + embedding generation
-│── static/
-│   └── graph.js           # Graph visualization logic
-│── requirements.txt
-│── README.md
-└── .env (Not uploaded — use HF secrets)
+├── app.py                       # Main Gradio application
+├── backend.py                   # Retrieval + LLM logic
+├── cypher_generator.py          # Natural language → Cypher conversion
+├── fallback_llm.py              # Fallback logic when no context is found
+├── get_response.py              # Final answer generation
+├── data/
+│   └── triplets.csv             # ISRO Knowledge Graph dataset
+├── embedding/
+│   ├── chroma_utils.py          # ChromaDB operations
+│   └── models/                  # (Optional) stored embedding models
+├── ingest/
+│   └── main_ingest.py           # Ingestion pipeline for embeddings
+├── config/
+│   └── settings.py              # Central config
+├── static/
+│   └── graph.js                 # Visualization logic
+├── .env                         # Not stored in repo
+├── requirements.txt
+└── README.md
+```
 
-🚀 How It Works
+## 🛰️ Example Queries
+### Users can ask things like:
 
-Embeddings are generated for each ISRO triplet and stored in ChromaDB.
+“What missions did ISRO launch in 2019?”
+“Show me the relationship between PSLV and Chandrayaan.”
+“Which centers handle satellite integration?”
+“Explain the structure of ISRO launch vehicles.”
 
-User asks a question → embeddings retrieved → top-k relevant triplets fetched.
+## 🤝 Contributing
+#### Pull requests are welcome — especially improvements to:
 
-Model converts query into Cypher.
-
-Graph engine executes Cypher on a Neo4j-like memory graph.
-
-Results + visualization returned to the UI.
-
-Example questions the system supports:
-
-“Which ISRO missions used the PSLV launcher?”
-
-“List satellites launched in 2018.”
+Dataset coverage
+Graph consistency
+Model performance
+UI/UX
