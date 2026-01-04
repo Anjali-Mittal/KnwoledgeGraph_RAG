@@ -1,16 +1,16 @@
 # 🚀 ISRO Knowledge Graph RAG
 
 ISRO Knowledge Graph RAG is an interactive system that allows users to explore ISRO missions, satellites, launch vehicles, and centers using natural language queries.
-It uses GraphRAG, Cypher-based retrieval, and semantic search to generate accurate, graph-grounded answers — along with graph visualizations.
+It uses GraphRAG, Cypher-based retrieval, and semantic search to generate accurate, graph-grounded answers.
 
 ## Features
 
-🧠 Retrieval-Augmented Generation over structured ISRO knowledge
-🔍 Semantic Search using ChromaDB instead of keyword matching
-🕸️ Graph-based reasoning using Cypher queries (via Neo4j)
-⚡ Fast responses by retrieving only relevant triplets / subgraphs
-💬 Clean Gradio chatbot UI for interacting with the graph
-🔌 Fully local — no external APIs or cloud databases required
+- 🧠 Retrieval-Augmented Generation over structured ISRO knowledge
+- 🔍 Semantic Search using ChromaDB instead of keyword matching
+- 🕸️ Graph-based reasoning using Cypher queries (via Neo4j)
+- ⚡ Fast responses by retrieving only relevant triplets / subgraphs
+- 💬 Clean Gradio chatbot UI for interacting with the graph
+- 🔌 Fully local - no external APIs or cloud databases required
 
 ### 🛠️ Setup Instructions
 ### 1. Clone the repository
@@ -26,29 +26,27 @@ Use a virtual environment (recommended):
 ```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-
 pip install -r requirements.txt
 ```
 
 ### 3. Add environment variables
-
 Create a .env (DO NOT upload this to GitHub):
-
-NEO4J_URI=bolt://localhost:7687
+```bash NEO4J_URI=bolt://localhost:7687
 NEO4J_USER=neo4j
 NEO4J_PASSWORD=your_password
 OPENROUTER_API_KEY=your_key
-
-
+```
 For HuggingFace deployment, add these to HF Spaces → Settings → Secrets.
 
 ### 4. Start the local Neo4j database
-
+```bash
 Make sure Neo4j Desktop or Memgraph Light is running.
+```
 
 ### 5. Run the app
-```python app.py```
-The Gradio UI will open — ask any ISRO-related question.
+```bash python app.py```
+
+The Gradio UI will open you can now ask any ISRO-related question.
 
 ## 📂 Directory Structure
 ```
@@ -77,21 +75,22 @@ ISRO_KnowledgeGraph_RAG/
 ## 🛰️ Example Queries
 ### Users can ask things like:
 
-“What missions did ISRO launch in 2019?”
-“Show me the relationship between PSLV and Chandrayaan.”
-“Which centers handle satellite integration?”
-“Explain the structure of ISRO launch vehicles.”
+- What missions did ISRO launch in 2019?
+- Show me the relationship between PSLV and Chandrayaan.
+- Which centers handle satellite integration?
+- Explain the structure of ISRO launch vehicles.
 
 ## 🤝 Contributing
 #### Pull requests are welcome — especially improvements to:
 
-Dataset coverage
-Graph consistency
-Model performance
-UI/UX
+- Dataset coverage
+- Graph consistency
+- Model performance
+- UI/UX
 
----
-title: ISRO Knowledge RAG
-sdk: gradio
-app_file: app.py
----
+## 🧾 License
+
+### MIT License © 2025 Anjali Mittal  
+-----
+Made with ❤️ by [Anjali Mittal](https://github.com/Anjali-Mittal)
+
